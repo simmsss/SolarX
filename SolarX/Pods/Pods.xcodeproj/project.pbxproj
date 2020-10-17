@@ -1,0 +1,1374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		099E8FF935A9ED32CB9B7EA9B38467E9 /* Pods-SolarX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7831F804A1DEDDBC22F083F692439 /* Pods-SolarX-dummy.m */; };
+		0CA80ED7E59E6BCE64CEEE649A3C6D2F /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 8404E8D50AD4774B6009CB23933854EE /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1297B5D31E927853B12C16357B59D132 /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7431D3A25A18BABF4FF4EE3F231403 /* check@2x.png */; };
+		12C41C088C8712039065807A9DD27BD8 /* CDAlertHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D577C201DC5DE0C62F7663C4268B15 /* CDAlertHeaderView.swift */; };
+		16F7BEF5722E0FC5A7DD6D93D0EEA0FB /* check@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3EB466F87E6F98BCE31F3B5E7F4D5F2 /* check@3x.png */; };
+		1931C4F8178527939B128590B3F0AEC6 /* notificationOutline@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ACDAABACAEA12836D8B801C6C13798B /* notificationOutline@1x.png */; };
+		1B131BC5079D84956F5F24004EEF82D3 /* warningOutline@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10CCC1E57B4276896FB3C3B262C0942A /* warningOutline@1x.png */; };
+		1BC6A0E985703281B2DA7DE5AEC102E8 /* notificationFilled@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = C20D8A17401745C08397E9114727B415 /* notificationFilled@1x.png */; };
+		1D07EC072C2532D1EDAC86429D4DD34D /* notificationFilled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6416B20DB4249D2D65B183C585BE2DF4 /* notificationFilled@2x.png */; };
+		206C637FD542C49556E0FFACE0DA0083 /* check@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312D59B399A2B489BD7FCC7CAEA159B7 /* check@1x.png */; };
+		264E1A478BDFA31DA6842749C72EA535 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C9F2A2BAE2F922E69CBB4968015EB7FC /* SVProgressHUD.bundle */; };
+		2885BF86B17E77C31CC449E94D905D5E /* SAConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28805197CFC887CA9351BD8659B153 /* SAConfettiView.swift */; };
+		28EEF4FC5773583DC129A57983A9669E /* warningFilled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F548685AB55347410D3486AE651CF7F /* warningFilled@2x.png */; };
+		29EB470F8A0586ABAC43DE3641E1B14F /* warningFilled@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 733F193AD19F9244E87BB9C1CD9C1447 /* warningFilled@3x.png */; };
+		2D7CEF13A6F0A435F58542DA8947F854 /* CDAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84454635689A8EACE20BCC9A601A1CA3 /* CDAlertView.swift */; };
+		314CECC5026C99BEDD5CAE5F0C4852C6 /* alarmOutline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5946782C962B38CE8612A20C3862BA9 /* alarmOutline@2x.png */; };
+		3312906B373C88335B1606F681285AED /* notificationOutline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D029594D9A9CB0837ADE51C2468501A7 /* notificationOutline@2x.png */; };
+		3392F8407B8C6F47A4E47436894642D8 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E8A153E1C78E0C2554CCECD2A09CA5 /* SVProgressHUD.m */; };
+		45D588B1B90FDCDEAADE394F6DDE4F16 /* warningOutline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F6DD6AD9977D3C5A1B286E722E868B7 /* warningOutline@2x.png */; };
+		47BC5D349AA65752E759C5BE3998E263 /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBC70AC626838D8DF2AAE29237D4F34 /* error@2x.png */; };
+		4BCFDC9F995569BEB2526DA9A619D913 /* warningFilled@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E7349F3095313037E94134B165F5FB /* warningFilled@1x.png */; };
+		4CE93CC7A50CBFCF212E5C70BCC97FA1 /* warningOutline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FBD431263FA4CF0BA371BCB5FCF0CBD /* warningOutline@3x.png */; };
+		51B2A47EFFA504C930DD0D3A07D41A97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		61A1DEFC63D6754A349A9369A312EB66 /* notificationOutline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 252B2E4D339446EA8BC68ADA6C532868 /* notificationOutline@3x.png */; };
+		662A21AFFD3B7CA63E05882B866E8703 /* CDAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1025E401710FE98FCB33A9D35462ACB /* CDAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68C0981CA66A13D9AF9F8D9708D178DC /* error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CEE7B33E20F221BC1E65809EE6CE34 /* error@3x.png */; };
+		6C29CA8D94AF6E9C14D1C372262F555E /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBD38CA9C0A0897CD8154399BD6C338 /* confetti.png */; };
+		6D5DC8D882DCA0C31526D45806E0C52E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		75FEE25CB35C8D9EB614A4D0CE80E16F /* alarmFilled@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED43AC93A3AA2E6F7D6E0B1E91E6C27A /* alarmFilled@3x.png */; };
+		7FE31335B7C376F1A231046D5DA4135A /* CDAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E49BCFF8C3ACAFF1998AC356F69D791 /* CDAlertView-dummy.m */; };
+		83AEEFFE1E888FA6BF4A85367BE5A699 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */; };
+		8A479F042A4E7B5B9DBD1140D8C24CCD /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F66D818D7893A7A73E9F274A79F22D7 /* triangle.png */; };
+		8BD0F0AD3D82659AC96D9157C7A381EE /* LayoutConstraintsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFD2EB36BCFDCC05F9D60814027057C /* LayoutConstraintsExtension.swift */; };
+		948590055F01C8B9CAB8A15358846633 /* Pods-SolarX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BA0DB3D80D5B492646C9AB9469CB771 /* Pods-SolarX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96138EFBF5EFD4D6317F68865BB7DB7F /* error@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EAAAEB6EA012D8614EA8EACAF52F851 /* error@1x.png */; };
+		964AC539D37C54B48F1C66CAE4DEC28D /* alarmFilled@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F316B5D98EEFCFEDA1064D654A1BADB4 /* alarmFilled@1x.png */; };
+		96EADE99073DBA8FCE7904627E2D18EE /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F31FF578B20F84D2EEA2DC2F6E8232 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99456829035D2883017E8EBCDB82C231 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */; };
+		9CFAB854962E317C47482C5D1BBC5BE2 /* SAConfettiView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D9D8D0A7EE5F83AF185004BC45C786 /* SAConfettiView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FDEEEE37349769B84A30B0105DFF456 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2122049F0AAB1874F32BCC178CF25990 /* SVProgressHUD-dummy.m */; };
+		A60DB24595E7C1FAA48FE91FEAC116FE /* diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = EB9865973C2F17041557B45E88B2E617 /* diamond.png */; };
+		ACEB5AF735575B0EAD107A19A613D405 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */; };
+		B5B9915F785CB47C5C07F0B698911B00 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3914B28D32560BD27FE22BA1D64744A /* SVIndefiniteAnimatedView.m */; };
+		BD3B3022FBE87617DAA05607894F7AD8 /* SAConfettiView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BE1BB52B72E4F876328933125B3677 /* SAConfettiView-dummy.m */; };
+		C62D3B2461DB123F42F8803A6B7ED9A3 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 33AC4E8E56263BA776AC9DAFA4421C90 /* star.png */; };
+		D2246BE5AF9C116D84444CC5C955BC02 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B58EDD285C0807A510CC751F9C6849 /* SVRadialGradientLayer.m */; };
+		D4914107FF5A197B9D0BC6D1C089E33D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		D78BF0367236E7EEFE72777A5243BAD6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */; };
+		D87B2D5ED73534ACF97CE0A52FA18AE4 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F65983A6DE68FB46FF8954543A47760 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D959B80C44ACB6E3CD5257F4E630CF78 /* CDAlertView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E417FD65D5A1F9B3171583531D47A61C /* CDAlertView.bundle */; };
+		DCA2688D1EF02B7DC7378A73A6B75345 /* SAConfettiView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E94B64C2BD13E14D90FC9CA3977F42AF /* SAConfettiView.bundle */; };
+		DE12057AB8895931A0E9499619C5CFC8 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF421EC3E463904AA003B8CFA3F3073 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0186A63060F0EB3676F95CD0ACE0E18 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 971515DE0201F3766F5AF3EE9251ADE6 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E16AC230218DE5D6DB81676F1C3918F2 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38A1E51D0BB9E1CFBBB971892F55A2D /* ImageHelper.swift */; };
+		E598273585BD75A4B6B9B18533F14EB6 /* alarmOutline@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D852E161B9EAED7DA1EB39D0AD23859 /* alarmOutline@1x.png */; };
+		EEAA1518C49804736C3F40117D064CBE /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C20EE752EF5455490A4746E743DAB6E /* SVProgressAnimatedView.m */; };
+		EFB83DA94BA989FCDE6EC67100D71E23 /* alarmFilled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CDA9A309708FD7EECC3E336927E615F /* alarmFilled@2x.png */; };
+		F9281C910F69CBEFD618B9161B4F0126 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		FDA527E69BF10D9B10993E9C3C4323C4 /* notificationFilled@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D0527A3540B713BFBC15BBFE7C2479E /* notificationFilled@3x.png */; };
+		FEB1A9EEA49A6EA97BF50BF474BF8CD7 /* alarmOutline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E518F35E310AF6F42AD4CC48A5A7DA6E /* alarmOutline@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04A8D83C448B193B460CBDF0FC952634 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F08944E713B18D3C01A791D5A3614D1F;
+			remoteInfo = "CDAlertView-CDAlertView";
+		};
+		2A6BB6D1C020279EB44CCE3BA0B69887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEF5EC9A82178D0D695682390F2DE2F1;
+			remoteInfo = SAConfettiView;
+		};
+		7FE753C95B690CE844A2BE07488BB4D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E488B4A8341D4A1374B44B7D0191BC4;
+			remoteInfo = "SAConfettiView-SAConfettiView";
+		};
+		AD5381BB8DCC066ADA09BDB390FA7087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99AC7779AA0E07D337CFA388DF690218;
+			remoteInfo = CDAlertView;
+		};
+		E975DE69A6A3FCA176349426753CEAC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E22A22A6EA178E52BC9FB6C6C4BA89 /* SAConfettiView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAConfettiView-prefix.pch"; sourceTree = "<group>"; };
+		034C39AD1B9EBEBCE19D532788E060AA /* CDAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CDAlertView-Info.plist"; sourceTree = "<group>"; };
+		08B58EDD285C0807A510CC751F9C6849 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		0ACDAABACAEA12836D8B801C6C13798B /* notificationOutline@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "notificationOutline@1x.png"; path = "CDAlertView/Resources/Assets/notificationOutline@1x.png"; sourceTree = "<group>"; };
+		0BB97D93630B2C3CEAED1637199D1F0D /* Pods-SolarX-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SolarX-acknowledgements.plist"; sourceTree = "<group>"; };
+		10CCC1E57B4276896FB3C3B262C0942A /* warningOutline@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningOutline@1x.png"; path = "CDAlertView/Resources/Assets/warningOutline@1x.png"; sourceTree = "<group>"; };
+		19F31FF578B20F84D2EEA2DC2F6E8232 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		1B7431D3A25A18BABF4FF4EE3F231403 /* check@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "check@2x.png"; path = "CDAlertView/Resources/Assets/check@2x.png"; sourceTree = "<group>"; };
+		1D0527A3540B713BFBC15BBFE7C2479E /* notificationFilled@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "notificationFilled@3x.png"; path = "CDAlertView/Resources/Assets/notificationFilled@3x.png"; sourceTree = "<group>"; };
+		1EAAAEB6EA012D8614EA8EACAF52F851 /* error@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@1x.png"; path = "CDAlertView/Resources/Assets/error@1x.png"; sourceTree = "<group>"; };
+		2122049F0AAB1874F32BCC178CF25990 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		21F776D6FECD87AFC811243E09F7CF5F /* CDAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CDAlertView.debug.xcconfig; sourceTree = "<group>"; };
+		252B2E4D339446EA8BC68ADA6C532868 /* notificationOutline@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "notificationOutline@3x.png"; path = "CDAlertView/Resources/Assets/notificationOutline@3x.png"; sourceTree = "<group>"; };
+		2BA0DB3D80D5B492646C9AB9469CB771 /* Pods-SolarX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SolarX-umbrella.h"; sourceTree = "<group>"; };
+		2F66D818D7893A7A73E9F274A79F22D7 /* triangle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = triangle.png; path = Pod/Assets/triangle.png; sourceTree = "<group>"; };
+		312D59B399A2B489BD7FCC7CAEA159B7 /* check@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "check@1x.png"; path = "CDAlertView/Resources/Assets/check@1x.png"; sourceTree = "<group>"; };
+		33AC4E8E56263BA776AC9DAFA4421C90 /* star.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = star.png; path = Pod/Assets/star.png; sourceTree = "<group>"; };
+		3CDA9A309708FD7EECC3E336927E615F /* alarmFilled@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alarmFilled@2x.png"; path = "CDAlertView/Resources/Assets/alarmFilled@2x.png"; sourceTree = "<group>"; };
+		3F65983A6DE68FB46FF8954543A47760 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		4483073A1200EE9E9D8E0071E86E1E3A /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		45A21FC5DE970E3EF6D4AA30AB4540B5 /* Pods_SolarX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SolarX.framework; path = "Pods-SolarX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4699C32FC7A9C887D2F861A2151C2F6F /* Pods-SolarX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SolarX.debug.xcconfig"; sourceTree = "<group>"; };
+		47E8A153E1C78E0C2554CCECD2A09CA5 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		497444E3780E44ED4F4672834DCE1ED8 /* CDAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CDAlertView.framework; path = CDAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4A9AC2DEC0E641A35521F9194FE977F0 /* Pods-SolarX-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SolarX-frameworks.sh"; sourceTree = "<group>"; };
+		4CBC70AC626838D8DF2AAE29237D4F34 /* error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@2x.png"; path = "CDAlertView/Resources/Assets/error@2x.png"; sourceTree = "<group>"; };
+		4CBD38CA9C0A0897CD8154399BD6C338 /* confetti.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = confetti.png; path = Pod/Assets/confetti.png; sourceTree = "<group>"; };
+		4CFF2E4058F858816365EC642C6DD990 /* SAConfettiView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SAConfettiView.framework; path = SAConfettiView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D852E161B9EAED7DA1EB39D0AD23859 /* alarmOutline@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alarmOutline@1x.png"; path = "CDAlertView/Resources/Assets/alarmOutline@1x.png"; sourceTree = "<group>"; };
+		50A3F693052D97E23A9960803DCBB248 /* CDAlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CDAlertView.release.xcconfig; sourceTree = "<group>"; };
+		5DC7831F804A1DEDDBC22F083F692439 /* Pods-SolarX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SolarX-dummy.m"; sourceTree = "<group>"; };
+		5E49BCFF8C3ACAFF1998AC356F69D791 /* CDAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDAlertView-dummy.m"; sourceTree = "<group>"; };
+		6416B20DB4249D2D65B183C585BE2DF4 /* notificationFilled@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "notificationFilled@2x.png"; path = "CDAlertView/Resources/Assets/notificationFilled@2x.png"; sourceTree = "<group>"; };
+		6B3347E4F8202D37BC95EAC4219E9392 /* SAConfettiView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAConfettiView.release.xcconfig; sourceTree = "<group>"; };
+		6F6DD6AD9977D3C5A1B286E722E868B7 /* warningOutline@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningOutline@2x.png"; path = "CDAlertView/Resources/Assets/warningOutline@2x.png"; sourceTree = "<group>"; };
+		70D577C201DC5DE0C62F7663C4268B15 /* CDAlertHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CDAlertHeaderView.swift; path = CDAlertView/Classes/CDAlertHeaderView.swift; sourceTree = "<group>"; };
+		733F193AD19F9244E87BB9C1CD9C1447 /* warningFilled@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningFilled@3x.png"; path = "CDAlertView/Resources/Assets/warningFilled@3x.png"; sourceTree = "<group>"; };
+		7FBD431263FA4CF0BA371BCB5FCF0CBD /* warningOutline@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningOutline@3x.png"; path = "CDAlertView/Resources/Assets/warningOutline@3x.png"; sourceTree = "<group>"; };
+		80D4B90678C4B1857C3CB5D6F0770941 /* ResourceBundle-SAConfettiView-SAConfettiView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SAConfettiView-SAConfettiView-Info.plist"; sourceTree = "<group>"; };
+		8404E8D50AD4774B6009CB23933854EE /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		84454635689A8EACE20BCC9A601A1CA3 /* CDAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CDAlertView.swift; path = CDAlertView/Classes/CDAlertView.swift; sourceTree = "<group>"; };
+		8DFD2EB36BCFDCC05F9D60814027057C /* LayoutConstraintsExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintsExtension.swift; path = CDAlertView/Classes/LayoutConstraintsExtension.swift; sourceTree = "<group>"; };
+		8EBBD0C3E84E237F032C5379A1C898C4 /* ResourceBundle-CDAlertView-CDAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CDAlertView-CDAlertView-Info.plist"; sourceTree = "<group>"; };
+		950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		971515DE0201F3766F5AF3EE9251ADE6 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		98BE1BB52B72E4F876328933125B3677 /* SAConfettiView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAConfettiView-dummy.m"; sourceTree = "<group>"; };
+		9BD670552969D4053D94EE63F64034D6 /* SAConfettiView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAConfettiView.debug.xcconfig; sourceTree = "<group>"; };
+		9C20EE752EF5455490A4746E743DAB6E /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F548685AB55347410D3486AE651CF7F /* warningFilled@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningFilled@2x.png"; path = "CDAlertView/Resources/Assets/warningFilled@2x.png"; sourceTree = "<group>"; };
+		A1C2F90C1CD1264108A21666895E6CD2 /* Pods-SolarX-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SolarX-Info.plist"; sourceTree = "<group>"; };
+		A1E5B79C777831C403F9702FDCA39CE7 /* SVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		A3914B28D32560BD27FE22BA1D64744A /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		A930682970506AF1E269E53F0414C184 /* SAConfettiView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SAConfettiView.modulemap; sourceTree = "<group>"; };
+		B1025E401710FE98FCB33A9D35462ACB /* CDAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDAlertView-umbrella.h"; sourceTree = "<group>"; };
+		BC8FC200502644443440FC823F6F922E /* SVProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		BEF421EC3E463904AA003B8CFA3F3073 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		C0CEE7B33E20F221BC1E65809EE6CE34 /* error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@3x.png"; path = "CDAlertView/Resources/Assets/error@3x.png"; sourceTree = "<group>"; };
+		C20D8A17401745C08397E9114727B415 /* notificationFilled@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "notificationFilled@1x.png"; path = "CDAlertView/Resources/Assets/notificationFilled@1x.png"; sourceTree = "<group>"; };
+		C95D1A09F8B8E7A4CDEDD4D993CF0713 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		C9F2A2BAE2F922E69CBB4968015EB7FC /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		CA567C2709BB1ABEA5C00B23EDCE3151 /* Pods-SolarX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SolarX.release.xcconfig"; sourceTree = "<group>"; };
+		CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		CC95B48053C68180C23C9FF7A9715171 /* Pods-SolarX-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SolarX-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CCC46E505C997ADC87878438952D99CB /* CDAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDAlertView-prefix.pch"; sourceTree = "<group>"; };
+		CE28805197CFC887CA9351BD8659B153 /* SAConfettiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAConfettiView.swift; path = Pod/Classes/SAConfettiView.swift; sourceTree = "<group>"; };
+		D029594D9A9CB0837ADE51C2468501A7 /* notificationOutline@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "notificationOutline@2x.png"; path = "CDAlertView/Resources/Assets/notificationOutline@2x.png"; sourceTree = "<group>"; };
+		D0E7349F3095313037E94134B165F5FB /* warningFilled@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningFilled@1x.png"; path = "CDAlertView/Resources/Assets/warningFilled@1x.png"; sourceTree = "<group>"; };
+		E18AC0866ACEF6A619B11C6C6A6A2E4E /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		E417FD65D5A1F9B3171583531D47A61C /* CDAlertView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CDAlertView.bundle; path = "CDAlertView-CDAlertView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45E3F35322CC8DE4C79345D65648D26 /* SAConfettiView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SAConfettiView-Info.plist"; sourceTree = "<group>"; };
+		E518F35E310AF6F42AD4CC48A5A7DA6E /* alarmOutline@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alarmOutline@3x.png"; path = "CDAlertView/Resources/Assets/alarmOutline@3x.png"; sourceTree = "<group>"; };
+		E5946782C962B38CE8612A20C3862BA9 /* alarmOutline@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alarmOutline@2x.png"; path = "CDAlertView/Resources/Assets/alarmOutline@2x.png"; sourceTree = "<group>"; };
+		E5D9D8D0A7EE5F83AF185004BC45C786 /* SAConfettiView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAConfettiView-umbrella.h"; sourceTree = "<group>"; };
+		E94B64C2BD13E14D90FC9CA3977F42AF /* SAConfettiView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SAConfettiView.bundle; path = "SAConfettiView-SAConfettiView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9865973C2F17041557B45E88B2E617 /* diamond.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = diamond.png; path = Pod/Assets/diamond.png; sourceTree = "<group>"; };
+		EC37ACBB3420359F46654EE22CEB802B /* Pods-SolarX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SolarX.modulemap"; sourceTree = "<group>"; };
+		ED43AC93A3AA2E6F7D6E0B1E91E6C27A /* alarmFilled@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alarmFilled@3x.png"; path = "CDAlertView/Resources/Assets/alarmFilled@3x.png"; sourceTree = "<group>"; };
+		F316B5D98EEFCFEDA1064D654A1BADB4 /* alarmFilled@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alarmFilled@1x.png"; path = "CDAlertView/Resources/Assets/alarmFilled@1x.png"; sourceTree = "<group>"; };
+		F38A1E51D0BB9E1CFBBB971892F55A2D /* ImageHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageHelper.swift; path = CDAlertView/Classes/ImageHelper.swift; sourceTree = "<group>"; };
+		F3EB466F87E6F98BCE31F3B5E7F4D5F2 /* check@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "check@3x.png"; path = "CDAlertView/Resources/Assets/check@3x.png"; sourceTree = "<group>"; };
+		F477822143ED80B403245B7654DC729F /* CDAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CDAlertView.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54B0D980BDC4D6AB2E1BA7E8B702838D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D1D1191F24E31CEEA04BDB3FB4C0F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4914107FF5A197B9D0BC6D1C089E33D /* Foundation.framework in Frameworks */,
+				99456829035D2883017E8EBCDB82C231 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B81E0413AC8C3A991D4BBFBD103BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B2A47EFFA504C930DD0D3A07D41A97 /* Foundation.framework in Frameworks */,
+				D78BF0367236E7EEFE72777A5243BAD6 /* QuartzCore.framework in Frameworks */,
+				ACEB5AF735575B0EAD107A19A613D405 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEE2D337DA0907A9D6AE5B9113473F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D3F817C3180E6181749F4AED257247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9281C910F69CBEFD618B9161B4F0126 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE8134CF310A37E9456BA9CDABDDA59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5DC8D882DCA0C31526D45806E0C52E /* Foundation.framework in Frameworks */,
+				83AEEFFE1E888FA6BF4A85367BE5A699 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C18BABFF9523A33465B5A91496FF0C3D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B5D5170C92BE01B95507861F5408FF7 /* SAConfettiView */ = {
+			isa = PBXGroup;
+			children = (
+				CE28805197CFC887CA9351BD8659B153 /* SAConfettiView.swift */,
+				90E22B7FDBB045BE6158596958041D1E /* Resources */,
+				FD508D61214C70E2D535A230DC7B69A5 /* Support Files */,
+			);
+			name = SAConfettiView;
+			path = SAConfettiView;
+			sourceTree = "<group>";
+		};
+		54D8FE6E168025C75BE3A35AFEDE6B1E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61E80648974BBCBCCEA85AA2AC4E8163 /* Pods-SolarX */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		61E80648974BBCBCCEA85AA2AC4E8163 /* Pods-SolarX */ = {
+			isa = PBXGroup;
+			children = (
+				EC37ACBB3420359F46654EE22CEB802B /* Pods-SolarX.modulemap */,
+				CC95B48053C68180C23C9FF7A9715171 /* Pods-SolarX-acknowledgements.markdown */,
+				0BB97D93630B2C3CEAED1637199D1F0D /* Pods-SolarX-acknowledgements.plist */,
+				5DC7831F804A1DEDDBC22F083F692439 /* Pods-SolarX-dummy.m */,
+				4A9AC2DEC0E641A35521F9194FE977F0 /* Pods-SolarX-frameworks.sh */,
+				A1C2F90C1CD1264108A21666895E6CD2 /* Pods-SolarX-Info.plist */,
+				2BA0DB3D80D5B492646C9AB9469CB771 /* Pods-SolarX-umbrella.h */,
+				4699C32FC7A9C887D2F861A2151C2F6F /* Pods-SolarX.debug.xcconfig */,
+				CA567C2709BB1ABEA5C00B23EDCE3151 /* Pods-SolarX.release.xcconfig */,
+			);
+			name = "Pods-SolarX";
+			path = "Target Support Files/Pods-SolarX";
+			sourceTree = "<group>";
+		};
+		6C0DB68C826205DE1AF2365F0C16F3E6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F316B5D98EEFCFEDA1064D654A1BADB4 /* alarmFilled@1x.png */,
+				3CDA9A309708FD7EECC3E336927E615F /* alarmFilled@2x.png */,
+				ED43AC93A3AA2E6F7D6E0B1E91E6C27A /* alarmFilled@3x.png */,
+				4D852E161B9EAED7DA1EB39D0AD23859 /* alarmOutline@1x.png */,
+				E5946782C962B38CE8612A20C3862BA9 /* alarmOutline@2x.png */,
+				E518F35E310AF6F42AD4CC48A5A7DA6E /* alarmOutline@3x.png */,
+				312D59B399A2B489BD7FCC7CAEA159B7 /* check@1x.png */,
+				1B7431D3A25A18BABF4FF4EE3F231403 /* check@2x.png */,
+				F3EB466F87E6F98BCE31F3B5E7F4D5F2 /* check@3x.png */,
+				1EAAAEB6EA012D8614EA8EACAF52F851 /* error@1x.png */,
+				4CBC70AC626838D8DF2AAE29237D4F34 /* error@2x.png */,
+				C0CEE7B33E20F221BC1E65809EE6CE34 /* error@3x.png */,
+				C20D8A17401745C08397E9114727B415 /* notificationFilled@1x.png */,
+				6416B20DB4249D2D65B183C585BE2DF4 /* notificationFilled@2x.png */,
+				1D0527A3540B713BFBC15BBFE7C2479E /* notificationFilled@3x.png */,
+				0ACDAABACAEA12836D8B801C6C13798B /* notificationOutline@1x.png */,
+				D029594D9A9CB0837ADE51C2468501A7 /* notificationOutline@2x.png */,
+				252B2E4D339446EA8BC68ADA6C532868 /* notificationOutline@3x.png */,
+				D0E7349F3095313037E94134B165F5FB /* warningFilled@1x.png */,
+				9F548685AB55347410D3486AE651CF7F /* warningFilled@2x.png */,
+				733F193AD19F9244E87BB9C1CD9C1447 /* warningFilled@3x.png */,
+				10CCC1E57B4276896FB3C3B262C0942A /* warningOutline@1x.png */,
+				6F6DD6AD9977D3C5A1B286E722E868B7 /* warningOutline@2x.png */,
+				7FBD431263FA4CF0BA371BCB5FCF0CBD /* warningOutline@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		70C3F55555476455F110B7041D42FA1B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E18AC0866ACEF6A619B11C6C6A6A2E4E /* SVProgressHUD.modulemap */,
+				2122049F0AAB1874F32BCC178CF25990 /* SVProgressHUD-dummy.m */,
+				4483073A1200EE9E9D8E0071E86E1E3A /* SVProgressHUD-Info.plist */,
+				C95D1A09F8B8E7A4CDEDD4D993CF0713 /* SVProgressHUD-prefix.pch */,
+				BEF421EC3E463904AA003B8CFA3F3073 /* SVProgressHUD-umbrella.h */,
+				A1E5B79C777831C403F9702FDCA39CE7 /* SVProgressHUD.debug.xcconfig */,
+				BC8FC200502644443440FC823F6F922E /* SVProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		787468443AD34E57393D2B2DAE07917A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A06CBCA35FFF67ADD0BAE44DC8D66178 /* CDAlertView */,
+				1B5D5170C92BE01B95507861F5408FF7 /* SAConfettiView */,
+				A33744F62D83390997DEB5D800876B02 /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		812DD7C9D7F4F3C0C77AFACEB399BB62 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F477822143ED80B403245B7654DC729F /* CDAlertView.modulemap */,
+				5E49BCFF8C3ACAFF1998AC356F69D791 /* CDAlertView-dummy.m */,
+				034C39AD1B9EBEBCE19D532788E060AA /* CDAlertView-Info.plist */,
+				CCC46E505C997ADC87878438952D99CB /* CDAlertView-prefix.pch */,
+				B1025E401710FE98FCB33A9D35462ACB /* CDAlertView-umbrella.h */,
+				21F776D6FECD87AFC811243E09F7CF5F /* CDAlertView.debug.xcconfig */,
+				50A3F693052D97E23A9960803DCBB248 /* CDAlertView.release.xcconfig */,
+				8EBBD0C3E84E237F032C5379A1C898C4 /* ResourceBundle-CDAlertView-CDAlertView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CDAlertView";
+			sourceTree = "<group>";
+		};
+		90E22B7FDBB045BE6158596958041D1E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CBD38CA9C0A0897CD8154399BD6C338 /* confetti.png */,
+				EB9865973C2F17041557B45E88B2E617 /* diamond.png */,
+				33AC4E8E56263BA776AC9DAFA4421C90 /* star.png */,
+				2F66D818D7893A7A73E9F274A79F22D7 /* triangle.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A06CBCA35FFF67ADD0BAE44DC8D66178 /* CDAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				70D577C201DC5DE0C62F7663C4268B15 /* CDAlertHeaderView.swift */,
+				84454635689A8EACE20BCC9A601A1CA3 /* CDAlertView.swift */,
+				F38A1E51D0BB9E1CFBBB971892F55A2D /* ImageHelper.swift */,
+				8DFD2EB36BCFDCC05F9D60814027057C /* LayoutConstraintsExtension.swift */,
+				6C0DB68C826205DE1AF2365F0C16F3E6 /* Resources */,
+				812DD7C9D7F4F3C0C77AFACEB399BB62 /* Support Files */,
+			);
+			name = CDAlertView;
+			path = CDAlertView;
+			sourceTree = "<group>";
+		};
+		A33744F62D83390997DEB5D800876B02 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				19F31FF578B20F84D2EEA2DC2F6E8232 /* SVIndefiniteAnimatedView.h */,
+				A3914B28D32560BD27FE22BA1D64744A /* SVIndefiniteAnimatedView.m */,
+				971515DE0201F3766F5AF3EE9251ADE6 /* SVProgressAnimatedView.h */,
+				9C20EE752EF5455490A4746E743DAB6E /* SVProgressAnimatedView.m */,
+				8404E8D50AD4774B6009CB23933854EE /* SVProgressHUD.h */,
+				47E8A153E1C78E0C2554CCECD2A09CA5 /* SVProgressHUD.m */,
+				3F65983A6DE68FB46FF8954543A47760 /* SVRadialGradientLayer.h */,
+				08B58EDD285C0807A510CC751F9C6849 /* SVRadialGradientLayer.m */,
+				DD8468108439483B554DF53EE87392D7 /* Resources */,
+				70C3F55555476455F110B7041D42FA1B /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		ABD7AA185926FC2DEE374476084908ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E417FD65D5A1F9B3171583531D47A61C /* CDAlertView.bundle */,
+				497444E3780E44ED4F4672834DCE1ED8 /* CDAlertView.framework */,
+				45A21FC5DE970E3EF6D4AA30AB4540B5 /* Pods_SolarX.framework */,
+				E94B64C2BD13E14D90FC9CA3977F42AF /* SAConfettiView.bundle */,
+				4CFF2E4058F858816365EC642C6DD990 /* SAConfettiView.framework */,
+				E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C18BABFF9523A33465B5A91496FF0C3D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */,
+				CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */,
+				49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				787468443AD34E57393D2B2DAE07917A /* Pods */,
+				ABD7AA185926FC2DEE374476084908ED /* Products */,
+				54D8FE6E168025C75BE3A35AFEDE6B1E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DD8468108439483B554DF53EE87392D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9F2A2BAE2F922E69CBB4968015EB7FC /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FD508D61214C70E2D535A230DC7B69A5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80D4B90678C4B1857C3CB5D6F0770941 /* ResourceBundle-SAConfettiView-SAConfettiView-Info.plist */,
+				A930682970506AF1E269E53F0414C184 /* SAConfettiView.modulemap */,
+				98BE1BB52B72E4F876328933125B3677 /* SAConfettiView-dummy.m */,
+				E45E3F35322CC8DE4C79345D65648D26 /* SAConfettiView-Info.plist */,
+				02E22A22A6EA178E52BC9FB6C6C4BA89 /* SAConfettiView-prefix.pch */,
+				E5D9D8D0A7EE5F83AF185004BC45C786 /* SAConfettiView-umbrella.h */,
+				9BD670552969D4053D94EE63F64034D6 /* SAConfettiView.debug.xcconfig */,
+				6B3347E4F8202D37BC95EAC4219E9392 /* SAConfettiView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SAConfettiView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4B77F010AA07A168851F164737376577 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662A21AFFD3B7CA63E05882B866E8703 /* CDAlertView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C044C67F11489EFA3459B8399E7061C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96EADE99073DBA8FCE7904627E2D18EE /* SVIndefiniteAnimatedView.h in Headers */,
+				E0186A63060F0EB3676F95CD0ACE0E18 /* SVProgressAnimatedView.h in Headers */,
+				DE12057AB8895931A0E9499619C5CFC8 /* SVProgressHUD-umbrella.h in Headers */,
+				0CA80ED7E59E6BCE64CEEE649A3C6D2F /* SVProgressHUD.h in Headers */,
+				D87B2D5ED73534ACF97CE0A52FA18AE4 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F8CBF7EE896C8349B835B3CB513FD8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CFAB854962E317C47482C5D1BBC5BE2 /* SAConfettiView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8270C841F2465CA961338E8770A7AB5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948590055F01C8B9CAB8A15358846633 /* Pods-SolarX-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E76C288BA44757915CF3700D8A326EB7 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				7C044C67F11489EFA3459B8399E7061C /* Headers */,
+				D0233C648200ED130A278D7164E80914 /* Sources */,
+				B3D1D1191F24E31CEEA04BDB3FB4C0F2 /* Frameworks */,
+				7BB2E885B360CCC1AEF0C191542BA06E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1E488B4A8341D4A1374B44B7D0191BC4 /* SAConfettiView-SAConfettiView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2855625DBFAFA2C391BAA06B39E9F8A7 /* Build configuration list for PBXNativeTarget "SAConfettiView-SAConfettiView" */;
+			buildPhases = (
+				3921FDB2DBE49107D7EB5D71C34B56BD /* Sources */,
+				CAEE2D337DA0907A9D6AE5B9113473F4 /* Frameworks */,
+				788F793C31A89EDB22F52125783DA82B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SAConfettiView-SAConfettiView";
+			productName = "SAConfettiView-SAConfettiView";
+			productReference = E94B64C2BD13E14D90FC9CA3977F42AF /* SAConfettiView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		99AC7779AA0E07D337CFA388DF690218 /* CDAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FB279B83505486D299D439612EBFC4 /* Build configuration list for PBXNativeTarget "CDAlertView" */;
+			buildPhases = (
+				4B77F010AA07A168851F164737376577 /* Headers */,
+				1D2C3C9CA1479344FA644242D68A475E /* Sources */,
+				FBE8134CF310A37E9456BA9CDABDDA59 /* Frameworks */,
+				2DA16A90D03AEB6F715F2F1CDC455399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B32742D759B69FBE86BD169DD395DA3 /* PBXTargetDependency */,
+			);
+			name = CDAlertView;
+			productName = CDAlertView;
+			productReference = 497444E3780E44ED4F4672834DCE1ED8 /* CDAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD564A342C6F66232F9ECC9D2E4BF48F /* Pods-SolarX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6353F386DE27C1D04E244A1730CC16F /* Build configuration list for PBXNativeTarget "Pods-SolarX" */;
+			buildPhases = (
+				8270C841F2465CA961338E8770A7AB5E /* Headers */,
+				DBE8EB6BBE38AA9C0A03427D5A3C9DF5 /* Sources */,
+				F2D3F817C3180E6181749F4AED257247 /* Frameworks */,
+				344BB75EA3A19A062D9445F6907113C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23E410049E965F8DAB6546EEDA885535 /* PBXTargetDependency */,
+				5CB0CA7DCC299AEC543417FA2FB0664A /* PBXTargetDependency */,
+				060A4A28B4E93E5CEFA6E940816C2069 /* PBXTargetDependency */,
+			);
+			name = "Pods-SolarX";
+			productName = "Pods-SolarX";
+			productReference = 45A21FC5DE970E3EF6D4AA30AB4540B5 /* Pods_SolarX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DEF5EC9A82178D0D695682390F2DE2F1 /* SAConfettiView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07EA32169F1B7384396BFB9EA2E50E1F /* Build configuration list for PBXNativeTarget "SAConfettiView" */;
+			buildPhases = (
+				81F8CBF7EE896C8349B835B3CB513FD8 /* Headers */,
+				981E61BD0A6AC7F815703D74ECDAA09B /* Sources */,
+				C5B81E0413AC8C3A991D4BBFBD103BC2 /* Frameworks */,
+				4E8A3F86A33FD11A51E848479226E269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1249FEEEF36C9B11F3FF9EC407739EFA /* PBXTargetDependency */,
+			);
+			name = SAConfettiView;
+			productName = SAConfettiView;
+			productReference = 4CFF2E4058F858816365EC642C6DD990 /* SAConfettiView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F08944E713B18D3C01A791D5A3614D1F /* CDAlertView-CDAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE281839FECF06A9CB5CC4AAD78BF577 /* Build configuration list for PBXNativeTarget "CDAlertView-CDAlertView" */;
+			buildPhases = (
+				2BC2B7C819B7E34D586D67117D7EC83D /* Sources */,
+				54B0D980BDC4D6AB2E1BA7E8B702838D /* Frameworks */,
+				39C795D6B4B20D176647AB020A6EF516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CDAlertView-CDAlertView";
+			productName = "CDAlertView-CDAlertView";
+			productReference = E417FD65D5A1F9B3171583531D47A61C /* CDAlertView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = ABD7AA185926FC2DEE374476084908ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99AC7779AA0E07D337CFA388DF690218 /* CDAlertView */,
+				F08944E713B18D3C01A791D5A3614D1F /* CDAlertView-CDAlertView */,
+				CD564A342C6F66232F9ECC9D2E4BF48F /* Pods-SolarX */,
+				DEF5EC9A82178D0D695682390F2DE2F1 /* SAConfettiView */,
+				1E488B4A8341D4A1374B44B7D0191BC4 /* SAConfettiView-SAConfettiView */,
+				1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DA16A90D03AEB6F715F2F1CDC455399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D959B80C44ACB6E3CD5257F4E630CF78 /* CDAlertView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344BB75EA3A19A062D9445F6907113C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C795D6B4B20D176647AB020A6EF516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964AC539D37C54B48F1C66CAE4DEC28D /* alarmFilled@1x.png in Resources */,
+				EFB83DA94BA989FCDE6EC67100D71E23 /* alarmFilled@2x.png in Resources */,
+				75FEE25CB35C8D9EB614A4D0CE80E16F /* alarmFilled@3x.png in Resources */,
+				E598273585BD75A4B6B9B18533F14EB6 /* alarmOutline@1x.png in Resources */,
+				314CECC5026C99BEDD5CAE5F0C4852C6 /* alarmOutline@2x.png in Resources */,
+				FEB1A9EEA49A6EA97BF50BF474BF8CD7 /* alarmOutline@3x.png in Resources */,
+				206C637FD542C49556E0FFACE0DA0083 /* check@1x.png in Resources */,
+				1297B5D31E927853B12C16357B59D132 /* check@2x.png in Resources */,
+				16F7BEF5722E0FC5A7DD6D93D0EEA0FB /* check@3x.png in Resources */,
+				96138EFBF5EFD4D6317F68865BB7DB7F /* error@1x.png in Resources */,
+				47BC5D349AA65752E759C5BE3998E263 /* error@2x.png in Resources */,
+				68C0981CA66A13D9AF9F8D9708D178DC /* error@3x.png in Resources */,
+				1BC6A0E985703281B2DA7DE5AEC102E8 /* notificationFilled@1x.png in Resources */,
+				1D07EC072C2532D1EDAC86429D4DD34D /* notificationFilled@2x.png in Resources */,
+				FDA527E69BF10D9B10993E9C3C4323C4 /* notificationFilled@3x.png in Resources */,
+				1931C4F8178527939B128590B3F0AEC6 /* notificationOutline@1x.png in Resources */,
+				3312906B373C88335B1606F681285AED /* notificationOutline@2x.png in Resources */,
+				61A1DEFC63D6754A349A9369A312EB66 /* notificationOutline@3x.png in Resources */,
+				4BCFDC9F995569BEB2526DA9A619D913 /* warningFilled@1x.png in Resources */,
+				28EEF4FC5773583DC129A57983A9669E /* warningFilled@2x.png in Resources */,
+				29EB470F8A0586ABAC43DE3641E1B14F /* warningFilled@3x.png in Resources */,
+				1B131BC5079D84956F5F24004EEF82D3 /* warningOutline@1x.png in Resources */,
+				45D588B1B90FDCDEAADE394F6DDE4F16 /* warningOutline@2x.png in Resources */,
+				4CE93CC7A50CBFCF212E5C70BCC97FA1 /* warningOutline@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8A3F86A33FD11A51E848479226E269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA2688D1EF02B7DC7378A73A6B75345 /* SAConfettiView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788F793C31A89EDB22F52125783DA82B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C29CA8D94AF6E9C14D1C372262F555E /* confetti.png in Resources */,
+				A60DB24595E7C1FAA48FE91FEAC116FE /* diamond.png in Resources */,
+				C62D3B2461DB123F42F8803A6B7ED9A3 /* star.png in Resources */,
+				8A479F042A4E7B5B9DBD1140D8C24CCD /* triangle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB2E885B360CCC1AEF0C191542BA06E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264E1A478BDFA31DA6842749C72EA535 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D2C3C9CA1479344FA644242D68A475E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C41C088C8712039065807A9DD27BD8 /* CDAlertHeaderView.swift in Sources */,
+				7FE31335B7C376F1A231046D5DA4135A /* CDAlertView-dummy.m in Sources */,
+				2D7CEF13A6F0A435F58542DA8947F854 /* CDAlertView.swift in Sources */,
+				E16AC230218DE5D6DB81676F1C3918F2 /* ImageHelper.swift in Sources */,
+				8BD0F0AD3D82659AC96D9157C7A381EE /* LayoutConstraintsExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BC2B7C819B7E34D586D67117D7EC83D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3921FDB2DBE49107D7EB5D71C34B56BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981E61BD0A6AC7F815703D74ECDAA09B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3B3022FBE87617DAA05607894F7AD8 /* SAConfettiView-dummy.m in Sources */,
+				2885BF86B17E77C31CC449E94D905D5E /* SAConfettiView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0233C648200ED130A278D7164E80914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B9915F785CB47C5C07F0B698911B00 /* SVIndefiniteAnimatedView.m in Sources */,
+				EEAA1518C49804736C3F40117D064CBE /* SVProgressAnimatedView.m in Sources */,
+				9FDEEEE37349769B84A30B0105DFF456 /* SVProgressHUD-dummy.m in Sources */,
+				3392F8407B8C6F47A4E47436894642D8 /* SVProgressHUD.m in Sources */,
+				D2246BE5AF9C116D84444CC5C955BC02 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE8EB6BBE38AA9C0A03427D5A3C9DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099E8FF935A9ED32CB9B7EA9B38467E9 /* Pods-SolarX-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		060A4A28B4E93E5CEFA6E940816C2069 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = E975DE69A6A3FCA176349426753CEAC2 /* PBXContainerItemProxy */;
+		};
+		0B32742D759B69FBE86BD169DD395DA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CDAlertView-CDAlertView";
+			target = F08944E713B18D3C01A791D5A3614D1F /* CDAlertView-CDAlertView */;
+			targetProxy = 04A8D83C448B193B460CBDF0FC952634 /* PBXContainerItemProxy */;
+		};
+		1249FEEEF36C9B11F3FF9EC407739EFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SAConfettiView-SAConfettiView";
+			target = 1E488B4A8341D4A1374B44B7D0191BC4 /* SAConfettiView-SAConfettiView */;
+			targetProxy = 7FE753C95B690CE844A2BE07488BB4D3 /* PBXContainerItemProxy */;
+		};
+		23E410049E965F8DAB6546EEDA885535 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CDAlertView;
+			target = 99AC7779AA0E07D337CFA388DF690218 /* CDAlertView */;
+			targetProxy = AD5381BB8DCC066ADA09BDB390FA7087 /* PBXContainerItemProxy */;
+		};
+		5CB0CA7DCC299AEC543417FA2FB0664A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAConfettiView;
+			target = DEF5EC9A82178D0D695682390F2DE2F1 /* SAConfettiView */;
+			targetProxy = 2A6BB6D1C020279EB44CCE3BA0B69887 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CBFEFD562EB15961EC30E8B32CBA455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1E5B79C777831C403F9702FDCA39CE7 /* SVProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		28302A949A83ED142EBCDB9A097EE83C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BD670552969D4053D94EE63F64034D6 /* SAConfettiView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SAConfettiView/SAConfettiView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAConfettiView/SAConfettiView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SAConfettiView/SAConfettiView.modulemap";
+				PRODUCT_MODULE_NAME = SAConfettiView;
+				PRODUCT_NAME = SAConfettiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		340F70C8AED1DA1B747ECD2617AB8067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21F776D6FECD87AFC811243E09F7CF5F /* CDAlertView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CDAlertView";
+				IBSC_MODULE = CDAlertView;
+				INFOPLIST_FILE = "Target Support Files/CDAlertView/ResourceBundle-CDAlertView-CDAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = CDAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3961C66359DCCDD707CE6758239F04F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B3347E4F8202D37BC95EAC4219E9392 /* SAConfettiView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SAConfettiView/SAConfettiView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAConfettiView/SAConfettiView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SAConfettiView/SAConfettiView.modulemap";
+				PRODUCT_MODULE_NAME = SAConfettiView;
+				PRODUCT_NAME = SAConfettiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69FF4CA39DFD4A7F938EBCA66AA71552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4699C32FC7A9C887D2F861A2151C2F6F /* Pods-SolarX.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SolarX/Pods-SolarX-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SolarX/Pods-SolarX.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87013A4416C9376F7A95C00001818985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA567C2709BB1ABEA5C00B23EDCE3151 /* Pods-SolarX.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SolarX/Pods-SolarX-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SolarX/Pods-SolarX.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89B67E7F967D5C5C7B31DFD2036C716A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B3347E4F8202D37BC95EAC4219E9392 /* SAConfettiView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SAConfettiView";
+				IBSC_MODULE = SAConfettiView;
+				INFOPLIST_FILE = "Target Support Files/SAConfettiView/ResourceBundle-SAConfettiView-SAConfettiView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SAConfettiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A97263293A54257A86401D82FDF0F9A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BD670552969D4053D94EE63F64034D6 /* SAConfettiView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SAConfettiView";
+				IBSC_MODULE = SAConfettiView;
+				INFOPLIST_FILE = "Target Support Files/SAConfettiView/ResourceBundle-SAConfettiView-SAConfettiView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SAConfettiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		ADF6485B336C7A3867A4646A85AD05D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21F776D6FECD87AFC811243E09F7CF5F /* CDAlertView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CDAlertView/CDAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDAlertView/CDAlertView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CDAlertView/CDAlertView.modulemap";
+				PRODUCT_MODULE_NAME = CDAlertView;
+				PRODUCT_NAME = CDAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF1F8D2941B0228930706FA0F2C9BB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CBFF830DD874BB6562DB0408DF20F0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50A3F693052D97E23A9960803DCBB248 /* CDAlertView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CDAlertView/CDAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDAlertView/CDAlertView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CDAlertView/CDAlertView.modulemap";
+				PRODUCT_MODULE_NAME = CDAlertView;
+				PRODUCT_NAME = CDAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB8DF0C1FC2A181B0C5BCF1E0BAAC682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC8FC200502644443440FC823F6F922E /* SVProgressHUD.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E97F5EF362CC69E3C059E307703260A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50A3F693052D97E23A9960803DCBB248 /* CDAlertView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CDAlertView";
+				IBSC_MODULE = CDAlertView;
+				INFOPLIST_FILE = "Target Support Files/CDAlertView/ResourceBundle-CDAlertView-CDAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = CDAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07EA32169F1B7384396BFB9EA2E50E1F /* Build configuration list for PBXNativeTarget "SAConfettiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28302A949A83ED142EBCDB9A097EE83C /* Debug */,
+				3961C66359DCCDD707CE6758239F04F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2855625DBFAFA2C391BAA06B39E9F8A7 /* Build configuration list for PBXNativeTarget "SAConfettiView-SAConfettiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97263293A54257A86401D82FDF0F9A9 /* Debug */,
+				89B67E7F967D5C5C7B31DFD2036C716A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */,
+				AF1F8D2941B0228930706FA0F2C9BB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6353F386DE27C1D04E244A1730CC16F /* Build configuration list for PBXNativeTarget "Pods-SolarX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69FF4CA39DFD4A7F938EBCA66AA71552 /* Debug */,
+				87013A4416C9376F7A95C00001818985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6FB279B83505486D299D439612EBFC4 /* Build configuration list for PBXNativeTarget "CDAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF6485B336C7A3867A4646A85AD05D8 /* Debug */,
+				CBFF830DD874BB6562DB0408DF20F0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE281839FECF06A9CB5CC4AAD78BF577 /* Build configuration list for PBXNativeTarget "CDAlertView-CDAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				340F70C8AED1DA1B747ECD2617AB8067 /* Debug */,
+				E97F5EF362CC69E3C059E307703260A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E76C288BA44757915CF3700D8A326EB7 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CBFEFD562EB15961EC30E8B32CBA455 /* Debug */,
+				DB8DF0C1FC2A181B0C5BCF1E0BAAC682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

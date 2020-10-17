@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D305042921694EB57BE16AE /* Pods_SolarX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DF65A376A1FE0004350030 /* Pods_SolarX.framework */; };
+		D01EE77B25382FFD00DD9280 /* SolarXCost.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D01EE77825382FFD00DD9280 /* SolarXCost.mlmodel */; };
+		D01EE77C25382FFD00DD9280 /* SolarXCO2Mitigation.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D01EE77925382FFD00DD9280 /* SolarXCO2Mitigation.mlmodel */; };
+		D01EE77D25382FFD00DD9280 /* SolarXMonthlySavings.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D01EE77A25382FFD00DD9280 /* SolarXMonthlySavings.mlmodel */; };
+		D01F9F002538AB1D0054F51D /* SolarX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D01F9EFE2538AB1D0054F51D /* SolarX.xcdatamodeld */; };
+		D01F9F042538B2D60054F51D /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F9F032538B2D60054F51D /* Grid.swift */; };
+		D01F9F072538B38C0054F51D /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F9F062538B38C0054F51D /* ARView.swift */; };
+		D01F9F0C2538C3650054F51D /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F9F0B2538C3650054F51D /* UIViewExtension.swift */; };
+		D03B5E412536E0E9003B5DEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B5E402536E0E9003B5DEA /* AppDelegate.swift */; };
+		D03B5E432536E0E9003B5DEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B5E422536E0E9003B5DEA /* SceneDelegate.swift */; };
+		D03B5E452536E0E9003B5DEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B5E442536E0E9003B5DEA /* ViewController.swift */; };
+		D03B5E482536E0E9003B5DEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03B5E462536E0E9003B5DEA /* Main.storyboard */; };
+		D03B5E4A2536E0EB003B5DEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03B5E492536E0EB003B5DEA /* Assets.xcassets */; };
+		D03B5E4D2536E0EC003B5DEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03B5E4B2536E0EC003B5DEA /* LaunchScreen.storyboard */; };
+		D06CF12125395D79009B1E47 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06CF12025395D79009B1E47 /* DoubleExtension.swift */; };
+		D06CF12425396F6C009B1E47 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06CF12325396F6C009B1E47 /* MapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		112C4773C0B6EB6FC3C476B2 /* Pods-SolarX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolarX.release.xcconfig"; path = "Target Support Files/Pods-SolarX/Pods-SolarX.release.xcconfig"; sourceTree = "<group>"; };
+		36DF65A376A1FE0004350030 /* Pods_SolarX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SolarX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		573A9D2363DE48C645E4F88B /* Pods-SolarX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolarX.debug.xcconfig"; path = "Target Support Files/Pods-SolarX/Pods-SolarX.debug.xcconfig"; sourceTree = "<group>"; };
+		D01EE77825382FFD00DD9280 /* SolarXCost.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SolarXCost.mlmodel; path = "../../../CreateML Models/Models/SolarXCost.mlmodel"; sourceTree = "<group>"; };
+		D01EE77925382FFD00DD9280 /* SolarXCO2Mitigation.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SolarXCO2Mitigation.mlmodel; path = "../../../CreateML Models/Models/SolarXCO2Mitigation.mlmodel"; sourceTree = "<group>"; };
+		D01EE77A25382FFD00DD9280 /* SolarXMonthlySavings.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SolarXMonthlySavings.mlmodel; path = "../../../CreateML Models/Models/SolarXMonthlySavings.mlmodel"; sourceTree = "<group>"; };
+		D01F9EFF2538AB1D0054F51D /* SolarX.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SolarX.xcdatamodel; sourceTree = "<group>"; };
+		D01F9F032538B2D60054F51D /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		D01F9F062538B38C0054F51D /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		D01F9F0B2538C3650054F51D /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		D03B5E3D2536E0E9003B5DEA /* SolarX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03B5E402536E0E9003B5DEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D03B5E422536E0E9003B5DEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D03B5E442536E0E9003B5DEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D03B5E472536E0E9003B5DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D03B5E492536E0EB003B5DEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D03B5E4C2536E0EC003B5DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D03B5E4E2536E0EC003B5DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06CF12025395D79009B1E47 /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		D06CF12325396F6C009B1E47 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D03B5E3A2536E0E9003B5DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D305042921694EB57BE16AE /* Pods_SolarX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67009E303F297E01BEDB4246 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				573A9D2363DE48C645E4F88B /* Pods-SolarX.debug.xcconfig */,
+				112C4773C0B6EB6FC3C476B2 /* Pods-SolarX.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B7322C5C83A5DC848325AFB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36DF65A376A1FE0004350030 /* Pods_SolarX.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D01F9F092538B4220054F51D /* Scene Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D03B5E442536E0E9003B5DEA /* ViewController.swift */,
+				D01F9F062538B38C0054F51D /* ARView.swift */,
+				D06CF12325396F6C009B1E47 /* MapView.swift */,
+			);
+			path = "Scene Controllers";
+			sourceTree = "<group>";
+		};
+		D03B5E342536E0E9003B5DEA = {
+			isa = PBXGroup;
+			children = (
+				D03B5E3F2536E0E9003B5DEA /* SolarX */,
+				D03B5E3E2536E0E9003B5DEA /* Products */,
+				67009E303F297E01BEDB4246 /* Pods */,
+				B7322C5C83A5DC848325AFB2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D03B5E3E2536E0E9003B5DEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D03B5E3D2536E0E9003B5DEA /* SolarX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D03B5E3F2536E0E9003B5DEA /* SolarX */ = {
+			isa = PBXGroup;
+			children = (
+				D03B5E552536E117003B5DEA /* Views */,
+				D03B5E562536E11C003B5DEA /* Models */,
+				D03B5E582536E126003B5DEA /* Storyboards */,
+				D03B5E572536E121003B5DEA /* Controllers */,
+				D03B5E492536E0EB003B5DEA /* Assets.xcassets */,
+				D03B5E4E2536E0EC003B5DEA /* Info.plist */,
+			);
+			path = SolarX;
+			sourceTree = "<group>";
+		};
+		D03B5E552536E117003B5DEA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D01F9F032538B2D60054F51D /* Grid.swift */,
+				D01F9F0B2538C3650054F51D /* UIViewExtension.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D03B5E562536E11C003B5DEA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D01EE77925382FFD00DD9280 /* SolarXCO2Mitigation.mlmodel */,
+				D01EE77825382FFD00DD9280 /* SolarXCost.mlmodel */,
+				D01EE77A25382FFD00DD9280 /* SolarXMonthlySavings.mlmodel */,
+				D01F9EFE2538AB1D0054F51D /* SolarX.xcdatamodeld */,
+				D06CF12025395D79009B1E47 /* DoubleExtension.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D03B5E572536E121003B5DEA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D01F9F092538B4220054F51D /* Scene Controllers */,
+				D03B5E402536E0E9003B5DEA /* AppDelegate.swift */,
+				D03B5E422536E0E9003B5DEA /* SceneDelegate.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D03B5E582536E126003B5DEA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D03B5E462536E0E9003B5DEA /* Main.storyboard */,
+				D03B5E4B2536E0EC003B5DEA /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D03B5E3C2536E0E9003B5DEA /* SolarX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D03B5E512536E0EC003B5DEA /* Build configuration list for PBXNativeTarget "SolarX" */;
+			buildPhases = (
+				997C1DEFE9893AFBBC5026EE /* [CP] Check Pods Manifest.lock */,
+				D03B5E392536E0E9003B5DEA /* Sources */,
+				D03B5E3A2536E0E9003B5DEA /* Frameworks */,
+				D03B5E3B2536E0E9003B5DEA /* Resources */,
+				5DE3BF36CDA49AF1163866F4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolarX;
+			productName = SolarX;
+			productReference = D03B5E3D2536E0E9003B5DEA /* SolarX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D03B5E352536E0E9003B5DEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D03B5E3C2536E0E9003B5DEA = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = D03B5E382536E0E9003B5DEA /* Build configuration list for PBXProject "SolarX" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D03B5E342536E0E9003B5DEA;
+			productRefGroup = D03B5E3E2536E0E9003B5DEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D03B5E3C2536E0E9003B5DEA /* SolarX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D03B5E3B2536E0E9003B5DEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03B5E4D2536E0EC003B5DEA /* LaunchScreen.storyboard in Resources */,
+				D03B5E4A2536E0EB003B5DEA /* Assets.xcassets in Resources */,
+				D03B5E482536E0E9003B5DEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DE3BF36CDA49AF1163866F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SolarX/Pods-SolarX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SolarX/Pods-SolarX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SolarX/Pods-SolarX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		997C1DEFE9893AFBBC5026EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SolarX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D03B5E392536E0E9003B5DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01F9F0C2538C3650054F51D /* UIViewExtension.swift in Sources */,
+				D06CF12425396F6C009B1E47 /* MapView.swift in Sources */,
+				D01EE77B25382FFD00DD9280 /* SolarXCost.mlmodel in Sources */,
+				D01EE77C25382FFD00DD9280 /* SolarXCO2Mitigation.mlmodel in Sources */,
+				D06CF12125395D79009B1E47 /* DoubleExtension.swift in Sources */,
+				D01F9F072538B38C0054F51D /* ARView.swift in Sources */,
+				D03B5E452536E0E9003B5DEA /* ViewController.swift in Sources */,
+				D01F9F042538B2D60054F51D /* Grid.swift in Sources */,
+				D01EE77D25382FFD00DD9280 /* SolarXMonthlySavings.mlmodel in Sources */,
+				D03B5E412536E0E9003B5DEA /* AppDelegate.swift in Sources */,
+				D01F9F002538AB1D0054F51D /* SolarX.xcdatamodeld in Sources */,
+				D03B5E432536E0E9003B5DEA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D03B5E462536E0E9003B5DEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D03B5E472536E0E9003B5DEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D03B5E4B2536E0EC003B5DEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D03B5E4C2536E0EC003B5DEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D03B5E4F2536E0EC003B5DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D03B5E502536E0EC003B5DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D03B5E522536E0EC003B5DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 573A9D2363DE48C645E4F88B /* Pods-SolarX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JCH97SA8UR;
+				INFOPLIST_FILE = SolarX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TheMisfits.SolarX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D03B5E532536E0EC003B5DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112C4773C0B6EB6FC3C476B2 /* Pods-SolarX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JCH97SA8UR;
+				INFOPLIST_FILE = SolarX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TheMisfits.SolarX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D03B5E382536E0E9003B5DEA /* Build configuration list for PBXProject "SolarX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03B5E4F2536E0EC003B5DEA /* Debug */,
+				D03B5E502536E0EC003B5DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D03B5E512536E0EC003B5DEA /* Build configuration list for PBXNativeTarget "SolarX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03B5E522536E0EC003B5DEA /* Debug */,
+				D03B5E532536E0EC003B5DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D01F9EFE2538AB1D0054F51D /* SolarX.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D01F9EFF2538AB1D0054F51D /* SolarX.xcdatamodel */,
+			);
+			currentVersion = D01F9EFF2538AB1D0054F51D /* SolarX.xcdatamodel */;
+			path = SolarX.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D03B5E352536E0E9003B5DEA /* Project object */;
+}

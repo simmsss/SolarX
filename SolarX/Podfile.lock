@@ -1,0 +1,24 @@
+PODS:
+  - CDAlertView (0.10.0)
+  - SAConfettiView (0.1.8)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - CDAlertView
+  - SAConfettiView
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - CDAlertView
+    - SAConfettiView
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  CDAlertView: ee6a87c90c4283c8d316d55633db1a6981f1cc51
+  SAConfettiView: c87031a2280659261b730fce3669fb10e73636ee
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 5dfddc082d1c82ec0579feb69b3e71905912ad5a
+
+COCOAPODS: 1.9.3

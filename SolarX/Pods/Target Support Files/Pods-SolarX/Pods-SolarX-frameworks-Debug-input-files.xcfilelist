@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-SolarX/Pods-SolarX-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CDAlertView/CDAlertView.framework
+${BUILT_PRODUCTS_DIR}/SAConfettiView/SAConfettiView.framework
+${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework
