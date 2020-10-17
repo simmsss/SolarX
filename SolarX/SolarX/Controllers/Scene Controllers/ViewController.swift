@@ -46,6 +46,80 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func northIndiaCampaigns(_ sender: Any) {
+        let alert = UIAlertController(title: "North India Subsidies", message: "Please select your state of residence", preferredStyle: .actionSheet)
+        
+        alert.addAction(UIAlertAction(title: "Uttar Pradesh", style: .default, handler: { (_) in
+            self.showAlertWithThreeButton(alert: "Uttar Pradesh", message: "The state government announced a subsidy of Rs 15,000 per kW for the development of rooftop solar projects which will be provided to residential consumers.", url: "https://upnedasolarrooftopportal.com/Apply-Online")
+        }))
+        
+        alert.addAction(UIAlertAction(title: "Haryana", style: .default, handler: { (_) in
+            self.showAlertWithThreeButton(alert: "Haryana", message: " If you are getting bills between Rs. 2000-3000 then your average cost is Rs. 7/ from using solar you get it as Rs. 2/unit. 90% subsidy available for farmers on water pumping systems.", url: "www.hareda.gov.in")
+        }))
+
+        alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: { (_) in
+            print("User click Dismiss button")
+        }))
+
+        self.present(alert, animated: true, completion: {
+            
+        })
+    }
+    
+    func showAlertWithThreeButton(alert: String, message: String, url: String) {
+            let alert = UIAlertController(title: alert, message: message, preferredStyle: .alert)
+
+            alert.addAction(UIAlertAction(title: "Apply", style: .default, handler: { (_) in
+                guard let url = URL(string: url) else { return }
+                UIApplication.shared.open(url)
+            }))
+
+            alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: { (_) in
+
+            }))
+
+            self.present(alert, animated: true, completion: nil)
+    }
+    
+    
+    
+    @IBAction func centralIndiaCampaigns(_ sender: Any) {
+        let alert = UIAlertController(title: "Central India Subsidies", message: "Please select your state of residence", preferredStyle: .actionSheet)
+        
+        alert.addAction(UIAlertAction(title: "Madhya Pradesh", style: .default, handler: { (_) in
+            self.showAlertWithThreeButton(alert: "Madhya Pradesh", message: "For 3 KW capacity, 40% is being provided in financial assistance. RTS system (Rooftop System) upto 3 kW up to capacity and 10 KW, subsidizing 20% to be provided.", url: "https://cdn.shopify.com/s/files/1/2980/5140/files/Tender_Document_for_Design_Supply_Installation_Testing_Commissioning_and_Maintenance_of_45_MW.pdf?v=1587361578")
+        }))
+        
+        alert.addAction(UIAlertAction(title: "Maharashtra", style: .default, handler: { (_) in
+            self.showAlertWithThreeButton(alert: "Maharashtra", message: "The subsidy available on the installation of grid-connected solar rooftop power plants is 30% of the benchmark cost. Government institutions including PSUs shall not be eligible for the subsidy. Instead, they will be given achievement-linked incentives/awards. All residential and institutional buildings such as schools, health institutions, etc. and the social sector can avail CFA.", url: "https://www.mahaurja.com/meda/grid_connected_power/solar_power/state_policy")
+        }))
+
+        alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: { (_) in
+            print("User click Dismiss button")
+        }))
+
+        self.present(alert, animated: true, completion: {
+            
+        })
+    }
+    
+    @IBAction func southIndiaCampaigns(_ sender: Any) {
+        let alert = UIAlertController(title: "Central India Subsidies", message: "Please select your state of residence", preferredStyle: .actionSheet)
+        
+        alert.addAction(UIAlertAction(title: "Kerela", style: .default, handler: { (_) in
+            self.showAlertWithThreeButton(alert: "Kerela", message: "For group housing society projects and residential welfare associations, with a capacity up to 500 kW, the center will provide a subsidy of 20%. If a customer wishes to install the plant investing the whole amount, they can choose to avail up to 40% of plant cost as subsidy.", url: "https://wss.kseb.in/selfservices/wss-registerForm")
+        }))
+
+        alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: { (_) in
+            print("User click Dismiss button")
+        }))
+
+        self.present(alert, animated: true, completion: {
+            
+        })
+    }
+    
+    
     @IBAction func greenbtnpressed(_ sender: Any) {
         if(globalCO2Mitigation == 0.0){
             //create alert
