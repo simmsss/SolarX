@@ -8,6 +8,7 @@ import CoreML
 import CoreData
 import CDAlertView
 import SAConfettiView
+import Alamofire
 
 var globalCO2Mitigation = 0.0
 var globalCostSaving = 0.0
@@ -30,6 +31,14 @@ class ViewController: UIViewController {
         let thisDay = Double(globalCostSaving / 30.00)
         savingsTodayLbl.text = String(Double(round(1000*thisDay)/1000))
         lifetimesavingsLbl.text = "₹ \(String(globalCostSaving * 12 * 25))"
+        
+        let apiKey = "AIzaSyAHnPMCDdWU8YfAJEPRXX7thrdXvz9nCsE"
+        
+        let url = "https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=mongolian%20grill&inputtype=textquery&fields=photos,formatted_address,name,opening_hours,rating&locationbias=circle:2000@47.6918452,-122.2226413&key=\(apiKey)"
+        
+        AF.request(url, method: .get).response { data in
+            print(data)
+        }
     }
 
     
@@ -119,6 +128,9 @@ class ViewController: UIViewController {
         })
     }
     
+    @IBAction func contractsBtnPressed(_ sender: Any) {
+        
+    }
     
     @IBAction func greenbtnpressed(_ sender: Any) {
         if(globalCO2Mitigation == 0.0){
@@ -157,5 +169,4 @@ class ViewController: UIViewController {
 
 
     }
-    
 }

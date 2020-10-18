@@ -168,11 +168,18 @@
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="contractIcon" translatesAutoresizingMaskIntoConstraints="NO" id="fBC-Qs-04k">
                                                         <rect key="frame" x="0.0" y="0.0" width="39" height="48"/>
                                                     </imageView>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="COr-9w-wUB">
+                                                        <rect key="frame" x="0.0" y="0.0" width="39" height="48"/>
+                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="COr-9w-wUB" secondAttribute="bottom" id="5bV-Ib-4nd"/>
                                                     <constraint firstItem="fBC-Qs-04k" firstAttribute="leading" secondItem="3qa-2I-pmW" secondAttribute="leading" id="7mE-xV-6Az"/>
+                                                    <constraint firstAttribute="trailing" secondItem="COr-9w-wUB" secondAttribute="trailing" id="HEa-lf-Cb1"/>
+                                                    <constraint firstItem="COr-9w-wUB" firstAttribute="top" secondItem="3qa-2I-pmW" secondAttribute="top" id="Hlm-jB-Rtu"/>
                                                     <constraint firstAttribute="trailing" secondItem="fBC-Qs-04k" secondAttribute="trailing" id="MgQ-T7-j2j"/>
+                                                    <constraint firstItem="COr-9w-wUB" firstAttribute="leading" secondItem="3qa-2I-pmW" secondAttribute="leading" id="SrW-84-yJA"/>
                                                     <constraint firstItem="fBC-Qs-04k" firstAttribute="top" secondItem="3qa-2I-pmW" secondAttribute="top" id="dKn-Bh-XP7"/>
                                                     <constraint firstAttribute="height" constant="48" id="nvM-5c-KkE"/>
                                                     <constraint firstAttribute="bottom" secondItem="fBC-Qs-04k" secondAttribute="bottom" id="xwu-uX-RyQ"/>

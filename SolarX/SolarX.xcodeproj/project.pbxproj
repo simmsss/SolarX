@@ -15,6 +15,7 @@
 		D01F9F042538B2D60054F51D /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F9F032538B2D60054F51D /* Grid.swift */; };
 		D01F9F072538B38C0054F51D /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F9F062538B38C0054F51D /* ARView.swift */; };
 		D01F9F0C2538C3650054F51D /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F9F0B2538C3650054F51D /* UIViewExtension.swift */; };
+		D021D21A253C8A4D004846F8 /* ContCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D021D219253C8A4D004846F8 /* ContCell.swift */; };
 		D03B5E412536E0E9003B5DEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B5E402536E0E9003B5DEA /* AppDelegate.swift */; };
 		D03B5E432536E0E9003B5DEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B5E422536E0E9003B5DEA /* SceneDelegate.swift */; };
 		D03B5E452536E0E9003B5DEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B5E442536E0E9003B5DEA /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 		D01F9F032538B2D60054F51D /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		D01F9F062538B38C0054F51D /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
 		D01F9F0B2538C3650054F51D /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		D021D219253C8A4D004846F8 /* ContCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContCell.swift; sourceTree = "<group>"; };
 		D03B5E3D2536E0E9003B5DEA /* SolarX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03B5E402536E0E9003B5DEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D03B5E422536E0E9003B5DEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			children = (
 				D01F9F032538B2D60054F51D /* Grid.swift */,
 				D01F9F0B2538C3650054F51D /* UIViewExtension.swift */,
+				D021D219253C8A4D004846F8 /* ContCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				D06CF12125395D79009B1E47 /* DoubleExtension.swift in Sources */,
 				D01F9F072538B38C0054F51D /* ARView.swift in Sources */,
 				D03B5E452536E0E9003B5DEA /* ViewController.swift in Sources */,
+				D021D21A253C8A4D004846F8 /* ContCell.swift in Sources */,
 				D01F9F042538B2D60054F51D /* Grid.swift in Sources */,
 				D01EE77D25382FFD00DD9280 /* SolarXMonthlySavings.mlmodel in Sources */,
 				D03B5E412536E0E9003B5DEA /* AppDelegate.swift in Sources */,

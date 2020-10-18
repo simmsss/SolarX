@@ -9,5 +9,6 @@ target 'SolarX' do
   pod "SAConfettiView"
   pod "CDAlertView"
   pod "SVProgressHUD"
+  pod "Alamofire"
 
 end
