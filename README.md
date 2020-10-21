@@ -1,5 +1,7 @@
 # SolarX
 
+**HackNC 2020 - Best Hack for Sustainability, Wolfram Award, and Top 20 Hack**
+
 Code snippets and supporting documentation for the SolarX project by The Mistfits for HackNC
 
 ## About SolarX
